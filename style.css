@@ -12,23 +12,25 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #1c1d25;
+  background: #11324d;
   text-align: center;
   overflow-y: scroll;
 }
 
 h1 {
   font-family: "Lobster", cursive;
-  color: #f06047;
+  color: #fff;
   margin-bottom: 30px;
 }
 main {
-  box-shadow: 0px 4px 8px rgba(104, 102, 102, 0.4),
-    0px -4px 8px rgba(104, 102, 102, 0.4);
+  box-shadow: 0px 4px rgba(104, 102, 102, 0.2),
+    0px -4px rgba(104, 102, 102, 0.2);
   padding: 30px;
-  border: 0.1px solid #f06047;
+  border: 1px solid #413c69;
   border-radius: 5px;
   width: 500px;
+  min-height: 300px;
+  background: #f38ba0;
 }
 
 .box {
@@ -37,7 +39,7 @@ main {
 
 #input {
   padding: 7px;
-  border: 2px solid #f06047;
+  border: 2px solid #c996cc;
   width: 100%;
   text-transform: capitalize;
   font-weight: 600;
